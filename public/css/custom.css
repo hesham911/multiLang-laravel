@@ -1,0 +1,52 @@
+.full-height {
+    height: 50vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+    font-family: 'Nunito', sans-serif;
+    color: #636b6f;
+    font-weight: 200;
+    margin: 0;
+}
+.links{
+    margin: 0;
+}
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.flag{
+    min-width: 20px!important;
+}
+.m-b-md {
+    margin-bottom: 30px;
+}
+.rtl {
+    direction: rtl;
+}
